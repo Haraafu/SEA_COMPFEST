@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: poppins;
+}
+
+.form {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
